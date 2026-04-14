@@ -176,3 +176,21 @@ Do not break Microsoft account sync or security services afterward.
 - Do not harden privacy during setup.
 - Never re-enter the child's email locally.
 - Waiting is often the correct fix.
+
+## Feedback
+
+This is not really designed for real families. The bigger problem is that I have to be fully signed in on all of these devices, and they all have to live as my devices in my Microsoft account.
+
+- There is no clear official guide for fresh installs.
+- The setup path should warn people not to start on the child's account first.
+- For 4 kids, that means 8 child devices plus my own devices all tied back to my account.
+- The PIN setup is fine for one or two kids, but it scales badly once you have a full house.
+- Using the same PIN everywhere is the only practical way to keep this from becoming unmanageable.
+- A child should not be one recovered login away from getting into a fully signed-in, 2FA-capable parent account and undoing all of this.
+
+What Windows should have:
+
+- A dedicated **family installer** mode for setting up a child's device
+- A **reinstall for child** option for new or reset PCs
+- A management account that is a sub-account instead of the parent's main account
+- Better guardrails around device setup, PINs, and account switching
