@@ -1,8 +1,8 @@
 # Windows 11 + Microsoft Family Safety: clean setup guide
 
-A no-BS guide for getting Microsoft Family Safety working on a fresh Windows 11 install without wrecking the setup by hardening privacy too early.
+A no-BS guide for getting Microsoft Family Safety working on a fresh Windows 11 install.
 
-I wrote this after spending way too long fighting a fresh install with basically no useful official guidance. Family Safety is slow, stateful, and easy to break if you poke at it before Microsoft finishes syncing everything.
+I wrote this after spending way too long fighting a fresh install with basically no useful official guidance. The setup flow is not described anywhere in a way that actually helps a real person getting a new PC ready.
 
 ## What this guide is for
 
@@ -33,7 +33,7 @@ Do not restart the whole process because one screen is still empty. In this setu
 - Telemetry blockers
 - "Disable call-home" tools
 
-Family Safety depends on Microsoft account sync, device registration, and encryption-related services. Hardening privacy too early can break setup without obvious errors.
+Family Safety depends on Microsoft account sync, device registration, and encryption-related services.
 
 ## Setup flow
 
