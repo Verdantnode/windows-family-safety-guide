@@ -1,21 +1,21 @@
 # Windows 11 + Microsoft Family Safety: clean setup guide
 
-A practical, end-to-end guide for getting Microsoft Family Safety working on a fresh Windows 11 install without breaking the setup by hardening privacy too early.
+A no-BS guide for getting Microsoft Family Safety working on a fresh Windows 11 install without wrecking the setup by hardening privacy too early.
 
-This exists because the official docs leave out the part that matters most: Family Safety is slow, stateful, and easy to disturb if you change too much before Microsoft finishes syncing everything.
+I wrote this after spending way too long fighting a fresh install with basically no useful official guidance. Family Safety is slow, stateful, and easy to break if you poke at it before Microsoft finishes syncing everything.
 
 ## What this guide is for
 
 - New Windows 11 installs
 - One organizer account
-- One child account already invited and accepted
+- Child accounts already invited and accepted
 - Devices that refuse to show up, duplicate entries, or delayed sync
 
 ## Read this first
 
-This is not a same-day setup. New installs can take several hours and sometimes up to 24-48 hours before everything appears consistently.
+This is not a same-day setup. New installs can take several hours and sometimes up to 24-48 hours before everything shows up consistently.
 
-Do not restart the whole process because one screen is still empty. In this setup, waiting is often the correct fix.
+Do not restart the whole process because one screen is still empty. In this setup, waiting is often the right move.
 
 ## Critical rules
 
@@ -96,9 +96,9 @@ https://account.microsoft.com/family
 Confirm:
 
 - Organizer is listed as organizer
-- Child is listed as child
-- Only one child entry exists
-- The invitation has already been accepted
+- Child accounts are listed correctly
+- Any duplicate child entries from earlier attempts are cleaned up
+- The right invitation has already been accepted
 
 If this is not correct, fix it here first.
 
